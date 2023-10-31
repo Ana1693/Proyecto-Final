@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/images/icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+   
+    <title>Ayuda</title>
+</head>
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="../assets/images/logo.jpg" class="logo" alt="logo" width="200" height="50"></a>
+            <ul>
+                <li><a href="../index.html">Ingresar</a></li>
+              
+            </ul>
+        </nav>            
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>Restablece tu Contraseña</h1>
+            <p>
+                Restablecer tu contraseña de manera regular es una práctica esencial para salvaguardar tu seguridad en línea y proteger tu identidad digital. No se trata solo de una medida de precaución, sino de una responsabilidad que todos los usuarios de Internet deben asumir en el entorno digital actual. Mantén tus contraseñas frescas y seguras para disfrutar de una experiencia en línea más protegida y tranquila.
+            </p>
+            <div>
+              
+                <input class="btn-secundario" type ="email" placeholder="ejemplo@gmail.com"/>
+                <button class="btn-principal" type ="submit">Restablecer</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="../assets/images/ayuda.png" alt="caratula" width="500" height="400">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>Preguntas Frecuentes</h2>
+                <p>
+                    Sección de preguntas y respuestas, una persona o un grupo de expertos suele responder a las preguntas del público sobre un tema específico. Puede ser una herramienta valiosa para aclarar dudas, profundizar en un tema o promover la participación activa de la audiencia.
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="bi bi-book"></i>
+                    <h3>Manuales </h3>
+                    <p>
+                        Toda la documentacion que necesitas para llevar acabo el uso 
+                        del sistema
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-duotone fa-handshake-angle"></i>
+                    <h3>Comunidad</h3>
+                    <p>
+                        Podras platicar con otros usuarios de dudas que se predentan
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-duotone fa-handshake-angle"></i>
+                    <h3>Soporte Tecnico</h3>
+                    <p>
+                        Contacta a varios de nuestros expertos para brindarte soporte
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-content">
+           Control de Inventario &copy;Todos los derechos reservados 2021
+        </p>
+    </footer>
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>

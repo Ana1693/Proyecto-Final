@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Usuario</title>
+	<meta charset="UTF-8">
+    <link rel="icon" href="../assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styletwo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark " id="prueba">
+            <div class="container-fluid">
+                <a href="" class="navbar-brand  fw-semibold fs-4 ">Control de Inventario</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <section class="offcanvas offcanvas-start " id="menuLateral" tabindex="-1">
+                    <div class="offcanvas-header" data-bs-theme="dark">
+                        <h5 class="offcanvas-title ">Panel</h5>
+                        <figure class="full-box ">
+                            <img class="avatar" src="../assets/images/avatar.jpeg" alt="UserIcon">
+                            <figcaption class="nav-link">Pancha Suarez</figcaption>
+                        </figure>
+                        <button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+
+                    <div class="offcanvas-body d-flex flex-column justify-content-between px-0">
+                        <ul class="navbar-nav fs-5 justify-content-evenly">
+                            <li class="nav-item p-3 py-md-1">
+
+                                <a href="../Page/Inicio.html" class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item p-3 py-md-1">
+                                <a href="../Page/Usuarios.html" class="nav-link">Usuarios</a>
+                            </li>
+
+                            <li class="nav-item p-3 py-md-1">
+                                <a href="../Page/reseatpass.html" class="nav-link">Ayuda</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </nav>
+    </header>
+     <section>
+     <h1 class="bi bi-person-check-fill">  Listas de Usuarios </h1>
+     <p id="texto">Este proceso de alta o registro es fundamental para acceder a funciones específicas, 
+        servicios personalizados o contenido restringido. Para registrarse en estas páginas, 
+        los usuarios generalmente deben proporcionar información personal como nombre, 
+        dirección de correo electrónico y una contraseña. Después de completar el proceso de registro,
+         se les otorga acceso a la plataforma con un nombre de usuario y una contraseña únicos, 
+         lo que les permite interactuar, compartir contenido o aprovechar servicios dentro de la página
+          web. </p>
+     </section>
+    
+    <section class="container-fluid" id="tab-usuarios">
+    <div class="col-lg col-md col">
+        <div class="card">
+         <div class="card-header bg-gradient text-light" id="pane">
+            <span>USUARIOS</span>
+          </div>
+        <div class="card-body">
+            <table class="table table-bordered table-hover table-stripped" >
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Correo</th>
+                        <th>Departamento</th>
+                        <th>Imagen</th>
+                        <th>Acciones</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juana</td>
+                        <td>Suarez</td>
+                        <td>ju@gmail.com</td>
+                        <td>Sistemas</td>
+                        <td><img src="../assets/images/avatar.jpeg" class="reg1 img-fluid"></td>
+                        <td> 
+                            <button class="plus bi bi-person-plus"></button>
+                            <button class="edit bi bi-pencil-square"></button>
+                    </tr>
+                    <tr>
+                        <td>Juana</td>
+                        <td>Suarez</td>
+                        <td>ju@gmail.com</td>
+                        <td>Sistemas</td>
+                        <td><img src="../assets/images/avatar2.jpg" class="reg1 img-fluid"></td>
+                        <td>
+                            <button class="plus bi bi-person-plus"></button>
+                            <button class="edit bi bi-pencil-square"></button>
+                    </tr>
+                    <tr>
+                        <td>Juana</td>
+                        <td>Suarez</td>
+                        <td>ju@gmail.com</td>
+                        <td>Sistemas</td>
+                        <td><img src="../assets/images/avatar3.jpg" class="reg1 img-fluid"></td>
+                        <td> 
+                            <button class="plus bi bi-person-plus"></button>
+                            <button class="edit bi bi-pencil-square"></button>
+                    </tr>
+                    <tr>
+                        <td>Juana</td>
+                        <td>Suarez</td>
+                        <td>ju@gmail.com</td>
+                        <td>Sistemas</td>
+                        <td><img src="../assets/images/avatar4.jpeg" class="reg1 img-fluid"></td>
+                        <td>
+                            <button class="plus bi bi-person-plus"></button>
+                            <button class="edit bi bi-pencil-square"></button>
+                        </td>
+                    </tr>
+                    
+                   
+                
+                  </tbody>
+                
+           
+            </table>
+            <nav class="paginacion">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a href="" class="page-link">Anterio</a>
+                    </li>    
+                <li class="page-item">
+                    <a href="" class="page-link">1</a>
+                </li>
+                <li class="page-item">
+                    <a href="" class="page-link">2</a>
+                </li>
+                <li class="page-item">
+                    <a href="" class="page-link">3</a>
+                </li>
+                <li class="page-item">
+                    <a href="" class="page-link">4</a>
+                </li>
+                <li class="page-item">
+                    <a href="" class="page-link">Siguiente</a>
+                </li>
+            </ul>
+            </nav>
+        </div> 
+        </div>
+    </div>
+    </section>
+	
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>
